@@ -1,0 +1,15 @@
+.dados{text-align: center;}
+.todos{color:#000;font-weight: bold;}
+.verificado{color: #5cb85c;font-weight: bold;}
+.negativo{color:#d9534f;font-weight: bold;}
+.positivo{color: #0275d8; font-weight: bold;}
+
+/*MENSAGENS DO SISTEMA*/
+.trigger {padding: 15px 15px 15px 15px;background: #eee;font-size: 14px;margin-bottom: 15px; border-radius: 5px;}
+.trigger a {font-weight: 600;font-size: 12px;text-transform: uppercase;padding: 5px 15px;background: #069;color: #fff;}
+.trigger a:hover {background: #09f;color: #fff;}
+.accept {background: #71ca73 center left 10px no-repeat}
+.infor  {background: #c8dbfd center left 10px no-repeat}
+.alert  {background: #faf7b7 center left 10px no-repeat}
+.error  {background:  #ffafaf center left 10px no-repeat}
+.alert  {font-size: 20px; font-family: 'Trebuchet MS'}
