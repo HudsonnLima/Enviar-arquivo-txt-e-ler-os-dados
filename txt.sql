@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 13-Jan-2024 às 14:15
+-- Tempo de geração: 08-Fev-2024 às 13:49
 -- Versão do servidor: 8.0.31
--- versão do PHP: 7.4.33
+-- versão do PHP: 8.0.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,8 +31,9 @@ DROP TABLE IF EXISTS `codigo`;
 CREATE TABLE IF NOT EXISTS `codigo` (
   `id` int NOT NULL AUTO_INCREMENT,
   `codigo` int NOT NULL,
+  `quantidade` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=97 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=185 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
